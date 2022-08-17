@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suit3]" parallel="classes">
+  <test name="Test3">
+    <classes>
+      <class name="veederRoot450plus.TankstatusTestng"/>
+      <class name="veederRoot450plus.TankStatusTest"/>
+    </classes>
+  </test> <!-- Test3 -->
+</suite> <!-- Failed suite [Suit3] -->

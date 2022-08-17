@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="171378" started-at="2022-08-12T13:04:19 IST" finished-at="2022-08-12T13:07:10 IST">
+    <groups>
+    </groups>
+    <test name="Browsertesting1" duration-ms="171378" started-at="2022-08-12T13:04:19 IST" finished-at="2022-08-12T13:07:10 IST">
+      <class name="ff5evo600.TankStatusValidation">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ff5evo600.TankStatusValidation@5faeada1]" name="setup" is-config="true" duration-ms="12920" started-at="2022-08-12T13:04:19 IST" finished-at="2022-08-12T13:04:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titanLoginPage()[pri:1, instance:ff5evo600.TankStatusValidation@5faeada1]" name="titanLoginPage" duration-ms="89270" started-at="2022-08-12T13:04:32 IST" finished-at="2022-08-12T13:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titanLoginPage -->
+        <test-method status="PASS" signature="reports(org.testng.ITestResult)[pri:0, instance:ff5evo600.TankStatusValidation@5faeada1]" name="reports" is-config="true" duration-ms="18" started-at="2022-08-12T13:06:01 IST" finished-at="2022-08-12T13:06:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titanLoginPage status=SUCCESS method=TankStatusValidation.titanLoginPage()[pri:1, instance:ff5evo600.TankStatusValidation@5faeada1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method status="PASS" signature="atgHomescreen()[pri:2, instance:ff5evo600.TankStatusValidation@5faeada1]" name="atgHomescreen" duration-ms="65411" started-at="2022-08-12T13:06:01 IST" finished-at="2022-08-12T13:07:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atgHomescreen -->
+        <test-method status="PASS" signature="reports(org.testng.ITestResult)[pri:0, instance:ff5evo600.TankStatusValidation@5faeada1]" name="reports" is-config="true" duration-ms="1" started-at="2022-08-12T13:07:06 IST" finished-at="2022-08-12T13:07:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=atgHomescreen status=SUCCESS method=TankStatusValidation.atgHomescreen()[pri:2, instance:ff5evo600.TankStatusValidation@5faeada1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method status="PASS" signature="tankStatusVerify()[pri:3, instance:ff5evo600.TankStatusValidation@5faeada1]" name="tankStatusVerify" duration-ms="2631" started-at="2022-08-12T13:07:06 IST" finished-at="2022-08-12T13:07:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tankStatusVerify -->
+        <test-method status="PASS" signature="reports(org.testng.ITestResult)[pri:0, instance:ff5evo600.TankStatusValidation@5faeada1]" name="reports" is-config="true" duration-ms="1" started-at="2022-08-12T13:07:09 IST" finished-at="2022-08-12T13:07:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tankStatusVerify status=SUCCESS method=TankStatusValidation.tankStatusVerify()[pri:3, instance:ff5evo600.TankStatusValidation@5faeada1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ff5evo600.TankStatusValidation@5faeada1]" name="teardown" is-config="true" duration-ms="1004" started-at="2022-08-12T13:07:09 IST" finished-at="2022-08-12T13:07:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ff5evo600.TankStatusValidation -->
+    </test> <!-- Browsertesting1 -->
+  </suite> <!-- Suite -->
+</testng-results>

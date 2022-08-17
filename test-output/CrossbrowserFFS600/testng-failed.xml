@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossbrowserFFS600]" parallel="tests">
+  <parameter name="browsername" value="chrome"/>
+  <test name="ChromeTest">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="ff5evo600.TankStatusValidation"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="ff5evo600.TankStatusValidation">
+        <methods>
+          <include name="atgHomescreen"/>
+          <include name="setup"/>
+          <include name="tankStatusVerify"/>
+          <include name="titanLoginPage"/>
+        </methods>
+      </class> <!-- ff5evo600.TankStatusValidation -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [CrossbrowserFFS600] -->
